@@ -1,10 +1,9 @@
 title: <img src="./logo.svg" alt="LoAT">
 email: florian.frohn@cs.rwth-aachen.de
 description: >- # this means to ignore newlines until "baseurl:"
-  We present the ADCL calculus for Constrained Horn Claues (CHCs).
-  It uses acceleration to avoid repeated derivations with recursive
-  CHCs in resolution proofs, which reduces the length of the proofs
-  drastically.
+  We present Accelerated Bounded Model Checking (ABMC).
+  It uses acceleration to enable BMC to find deep counterexamples with small bounds.
+  Moreover, by using so-called blocking clauses, ABMC can also prove safety of examples that are challenging for state-of-the-art techniques.
 github_username:  ffrohn
 theme: jekyll-theme-cayman
 github:
