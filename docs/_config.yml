@@ -1,0 +1,11 @@
+title: <img src="./logo.svg" alt="LoAT">
+email: florian.frohn@cs.rwth-aachen.de
+description: >- # this means to ignore newlines until "baseurl:"
+  We present the ADCL calculus for Constrained Horn Claues (CHCs).
+  It uses acceleration to avoid repeated derivations with recursive
+  CHCs in resolution proofs, which reduces the length of the proofs
+  drastically.
+github_username:  ffrohn
+theme: jekyll-theme-cayman
+github:
+  is_project_page: false
