@@ -1,1 +1,0 @@
-/export/starexec/sandbox/solver/bin/starexec_run_spacer: line 3: 41451 Alarm clock             ./z3 fp.engine=spacer $1 2> /dev/null

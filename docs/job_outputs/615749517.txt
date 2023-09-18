@@ -1,2 +1,0 @@
-sat
-Build SHA: 20de23f63fc872a6eacdbc1ff054752d1f77d3e0 (CLEAN)

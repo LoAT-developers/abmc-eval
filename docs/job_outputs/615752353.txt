@@ -1,1 +1,0 @@
-/export/starexec/sandbox/solver/bin/starexec_run_loat_horn_abmc_no_block: line 3:  5974 Alarm clock             ./loat-static --plain --proof-level 0 --mode reachability --format horn --engine abmc --abmc::blocking_clauses false $1 2> /dev/null

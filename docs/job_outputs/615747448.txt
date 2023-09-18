@@ -1,1 +1,0 @@
-/export/starexec/sandbox/solver/bin/starexec_run_loat_horn_bmc: line 3: 17839 Alarm clock             ./loat-static --plain --proof-level 0 --mode reachability --format horn --engine bmc $1 2> /dev/null
