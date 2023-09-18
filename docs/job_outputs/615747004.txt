@@ -1,0 +1,1 @@
+/export/starexec/sandbox/solver/bin/starexec_run_bmc: line 3: 40310 Alarm clock             ./golem -l QF_LIA -e bmc $1 2> /dev/null

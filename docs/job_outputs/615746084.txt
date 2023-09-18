@@ -1,0 +1,1 @@
+/export/starexec/sandbox2/solver/bin/starexec_run_split_tpa: line 3: 54256 Segmentation fault      (core dumped) ./golem -l QF_LIA -e split-tpa $1 2> /dev/null

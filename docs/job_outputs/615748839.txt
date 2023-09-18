@@ -1,0 +1,1 @@
+/export/starexec/sandbox/solver/bin/starexec_run_split_tpa: line 3: 48397 Alarm clock             ./golem -l QF_LIA -e split-tpa $1 2> /dev/null

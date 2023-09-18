@@ -32,59 +32,10 @@
 
     <h2>Results</h2>
 
-    Below we provide tables with the detailed results of our benchmarks:
+    We provide tables with the detailed results of our benchmarks:
     <ul>
-      <li>Examples from the CHC competition 2022</li>
-      <ul>
-        <li><a href="./abmc_block_22.html">LoAT ABMC with blocking clauses</a></li>
-        <ul>
-          <li>invocation: <tt>loat-static --mode reachability --format horn --engine abmc $INPUT</tt></li>
-        </ul>
-        <li><a href="./abmc_non_block_22.html">LoAT ABMC without blocking clauses</a></li>
-        <ul>
-          <li>invocation: <tt>loat-static --mode reachability --format horn --engine abmc --abmc::blocking_clauses false $INPUT</tt></li>
-        </ul>
-        <li><a href="./bmc_22.html">LoAT BMC</a></li>
-        <ul>
-          <li>invocation: <tt>loat-static --mode reachability --format horn --engine bmc $INPUT</tt></li>
-        </ul>
-        <li><a href="./adcl_22.html">LoAT ADCL</a></li>
-        <ul>
-          <li>invocation: <tt>loat-static --mode reachability --format horn --engine adcl $INPUT</tt></li>
-        </ul>
-        <li><a href="./z3_bmc_22.html">Z3 BMC</a></li>
-        <ul>
-          <li>invocation: <tt>z3 fp.engine=bmc $INPUT</tt></li>
-        </ul>
-        <li><a href="./spacer_22.html">Spacer</a></li>
-        <ul>
-          <li>invocation: <tt>z3 fp.engine=spacer $INPUT</tt></li>
-        </ul>
-        <li><a href="./golem_tpa_22.html">Golem TPA</a></li>
-        <ul>
-          <li>invocation: <tt>golem -l QF_LIA -e split-tpa $INPUT</tt></li>
-        </ul>
-        <li><a href="./golem_bmc_22.html">Golem BMC</a></li>
-        <ul>
-          <li>invocation: <tt>golem -l QF_LIA -e bmc $INPUT</tt></li>
-        </ul>
-        <li><a href="./eld_22.html">Eldarica</a></li>
-        <ul>
-          <li>invocation: <tt>eld $INPUT</tt></li>
-        </ul>
-      </ul>
-      <li>Examples from the CHC competition 2023</li>
-      <ul>
-        <li><a href="./abmc_block_23.html">LoAT ABMC with blocking clauses</a></li>
-        <li><a href="./abmc_non_block_23.html">LoAT ABMC without blocking clauses</a></li>
-        <li><a href="./bmc_23.html">LoAT BMC</a></li>
-        <li><a href="./adcl_23.html">LoAT ADCL</a></li>
-        <li><a href="./z3_bmc_23.html">Z3 BMC</a></li>
-        <li><a href="./spacer_23.html">Spacer</a></li>
-        <li><a href="./golem_tpa_23.html">Golem TPA</a></li>
-        <li><a href="./golem_bmc_23.html">Golem BMC</a></li>
-        <li><a href="./eld_23.html">Eldarica</a></li>
-      </ul>
+      <li><a href="./2022.html">Examples from the CHC competition 2022</a></li>
+      <li><a href="./2023.html">Examples from the CHC competition 2023</a></li>
     </ul>
 
   </body>

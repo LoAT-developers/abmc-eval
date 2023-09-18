@@ -1,0 +1,1 @@
+/export/starexec/sandbox/solver/bin/starexec_run_eld: line 3: 48967 Alarm clock             ./eld $1 2> /dev/null

@@ -1,0 +1,1 @@
+/export/starexec/sandbox/solver/bin/starexec_run_bmc: line 3: 56030 Alarm clock             ./z3 fp.engine=bmc $1 2> /dev/null
