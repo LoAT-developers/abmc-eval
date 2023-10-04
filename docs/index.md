@@ -32,7 +32,8 @@
 
     <h2>Results</h2>
 
-    We provide tables with the detailed results of our benchmarks:
+    We provide tables with the detailed results of our benchmarks.
+    In these tables, unique results that were only found by a single configuration in our test are highlighted in yellow.
     <ul>
       <li><a href="./2022.html">Examples from the CHC competition 2022</a></li>
       <li><a href="./2023.html">Examples from the CHC competition 2023</a></li>
