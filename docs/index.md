@@ -11,7 +11,7 @@
   <body>
 
     <p>
-      This is the empirical evaluation of the paper <a href="???"><i>Accelerated Bounded Model Checking</i></a>.
+      This is the empirical evaluation of the paper <a href="./main.pdf"><i>Accelerated Bounded Model Checking</i></a>.
     </p>
 
     <h1>Getting LoAT</h1>
