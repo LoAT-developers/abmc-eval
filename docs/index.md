@@ -34,24 +34,51 @@
 
     In our evaluation, we considered the following tools and configurations:
     <ul>
-      <li>LoAT v0.7.0</li>
+      <li>LoAT 0.7.0</li>
       <ul>
         <li>LoAT's implementation of Accelerated Bounded Model Checking with blocking clauses (LoAT ABMC_block)</li>
+        <ul>
+          <li>invocation: <tt>loat-static --mode reachability --format horn --engine abmc $INPUT</tt></li>
+        </ul>
         <li>LoAT's implementation of Accelerated Bounded Model Checking without blocking clauses (ABMC)</li>
+        <ul>
+          <li>invocation: <tt>loat-static --mode reachability --format horn --engine abmc --abmc::blocking_clauses false $INPUT</tt></li>
+        </ul>
         <li>LoAT's implementation of Bounded Model Checking (BMC)</li>
+        <ul>
+          <li>invocation: <tt>loat-static --mode reachability --format horn --engine bmc $INPUT</tt></li>
+        </ul>
         <li>LoAT's implementation of Acceleration Driven Clause Learning (ADCL)</li>
+        <ul>
+          <li>invocation: <tt>loat-static --mode reachability --format horn --engine adcl $INPUT</tt></li>
+        </ul>
       </ul>
       <li><a href="https://github.com/Z3Prover/z3">Z3</a> 4.12.2</li>
       <ul>
         <li>Z3's implementation of the Spacer algorithm (Spacer)</li>
+        <ul>
+          <li>invocation: <tt>z3 fp.engine=spacer $INPUT</tt></li>
+        </ul>
         <li>Z3's implementation of Bounded Model Checking (Z3 BMC)</li>
+        <ul>
+          <li>invocation: <tt>z3 fp.engine=bmc $INPUT</tt></li>
+        </ul>
       </ul>
       <li><a href="https://github.com/usi-verification-and-security/golem">Golem</a> 0.4.3</li>
       <ul>
         <li>Golem's implementation of Transition Power Abstraction (Golem TPA)</li>
+        <ul>
+          <li>invocation: <tt>golem -l QF_LIA -e split-tpa $INPUT</tt></li>
+        </ul>
         <li>Golem's implementation of Bounded Model Checking (Golem BMC)</li>
+        <ul>
+          <li>invocation: <tt>golem -l QF_LIA -e bmc $INPUT</tt></li>
+        </ul>
       </ul>
       <li><a href="https://github.com/uuverifiers/eldarica">Eldarica</a> 2.0.9 in its default configuration</li>
+      <ul>
+          <li>invocation: <tt>eld $INPUT</tt></li>
+        </ul>
     </ul>
 
     <h2>Results</h2>
