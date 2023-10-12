@@ -27,7 +27,7 @@
     <h2>Examples</h2>
 
     <p>
-      We used the examples from the category LIA-Lin (linear CHCs with linear integer arithmetic) from the <a href="https://chc-comp.github.io/">CHC competition</a> 2022 and 2023.
+      We used the examples from the category LIA-Lin (linear CHCs with linear integer arithmetic) from the <a href="https://chc-comp.github.io/">CHC competitions</a> 2022 and 2023.
       They can be found <a href="https://github.com/chc-comp/chc-comp22-benchmarks/tree/main/LIA-Lin">here</a> and <a href="https://github.com/chc-comp/chc-comp23-benchmarks/tree/main/LIA-lin">here</a>.
     </p>
 
