@@ -41,15 +41,15 @@
         <ul>
           <li>invocation: <tt>loat-static --mode reachability --format horn --engine abmc $INPUT</tt></li>
         </ul>
-        <li>Accelerated Bounded Model Checking without blocking clauses (ABMC)</li>
+        <li>Accelerated Bounded Model Checking without blocking clauses (LoAT ABMC)</li>
         <ul>
           <li>invocation: <tt>loat-static --mode reachability --format horn --engine abmc --abmc::blocking_clauses false $INPUT</tt></li>
         </ul>
-        <li>Bounded Model Checking (BMC)</li>
+        <li>Bounded Model Checking (LoAT BMC)</li>
         <ul>
           <li>invocation: <tt>loat-static --mode reachability --format horn --engine bmc $INPUT</tt></li>
         </ul>
-        <li>Acceleration Driven Clause Learning (ADCL)</li>
+        <li>Acceleration Driven Clause Learning (LoAT ADCL)</li>
         <ul>
           <li>invocation: <tt>loat-static --mode reachability --format horn --engine adcl $INPUT</tt></li>
         </ul>
