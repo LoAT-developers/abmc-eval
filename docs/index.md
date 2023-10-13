@@ -39,46 +39,46 @@
       <ul>
         <li>Accelerated Bounded Model Checking with blocking clauses (LoAT ABMC_block)</li>
         <ul>
-          <li>invocation: <tt>loat-static --mode reachability --format horn --engine abmc $INPUT</tt></li>
+          <li><tt>loat-static --mode reachability --format horn --engine abmc $INPUT</tt></li>
         </ul>
         <li>Accelerated Bounded Model Checking without blocking clauses (LoAT ABMC)</li>
         <ul>
-          <li>invocation: <tt>loat-static --mode reachability --format horn --engine abmc --abmc::blocking_clauses false $INPUT</tt></li>
+          <li><tt>loat-static --mode reachability --format horn --engine abmc --abmc::blocking_clauses false $INPUT</tt></li>
         </ul>
         <li>Bounded Model Checking (LoAT BMC)</li>
         <ul>
-          <li>invocation: <tt>loat-static --mode reachability --format horn --engine bmc $INPUT</tt></li>
+          <li><tt>loat-static --mode reachability --format horn --engine bmc $INPUT</tt></li>
         </ul>
         <li>Acceleration Driven Clause Learning (LoAT ADCL)</li>
         <ul>
-          <li>invocation: <tt>loat-static --mode reachability --format horn --engine adcl $INPUT</tt></li>
+          <li><tt>loat-static --mode reachability --format horn --engine adcl $INPUT</tt></li>
         </ul>
       </ul>
       <li><a href="https://github.com/Z3Prover/z3">Z3</a> 4.12.2</li>
       <ul>
         <li>the Spacer algorithm (Spacer)</li>
         <ul>
-          <li>invocation: <tt>z3 fp.engine=spacer $INPUT</tt></li>
+          <li><tt>z3 fp.engine=spacer $INPUT</tt></li>
         </ul>
         <li>Bounded Model Checking (Z3 BMC)</li>
         <ul>
-          <li>invocation: <tt>z3 fp.engine=bmc $INPUT</tt></li>
+          <li><tt>z3 fp.engine=bmc $INPUT</tt></li>
         </ul>
       </ul>
       <li><a href="https://github.com/usi-verification-and-security/golem">Golem</a> 0.4.3</li>
       <ul>
         <li>Transition Power Abstraction (Golem TPA)</li>
         <ul>
-          <li>invocation: <tt>golem -l QF_LIA -e split-tpa $INPUT</tt></li>
+          <li><tt>golem -l QF_LIA -e split-tpa $INPUT</tt></li>
         </ul>
         <li>Bounded Model Checking (Golem BMC)</li>
         <ul>
-          <li>invocation: <tt>golem -l QF_LIA -e bmc $INPUT</tt></li>
+          <li><tt>golem -l QF_LIA -e bmc $INPUT</tt></li>
         </ul>
       </ul>
       <li><a href="https://github.com/uuverifiers/eldarica">Eldarica</a> 2.0.9 in its default configuration</li>
       <ul>
-          <li>invocation: <tt>eld $INPUT</tt></li>
+          <li><tt>eld $INPUT</tt></li>
         </ul>
     </ul>
 
