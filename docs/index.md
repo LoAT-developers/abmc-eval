@@ -11,7 +11,7 @@
   <body>
 
     <p>
-      This is the empirical evaluation of the implementation of our techniques from the paper <a href="./main.pdf"><i>Accelerated Bounded Model Checking</i></a> in the tool LoAT.
+      This is the empirical evaluation of the implementation of our techniques from the paper <a href="https://arxiv.org/abs/2401.09973"><i>Accelerated Bounded Model Checking</i></a> in our tool LoAT.
     </p>
 
     <h1>Getting LoAT</h1>
@@ -20,7 +20,7 @@
       We provide a <a href="https://github.com/LoAT-developers/LoAT/releases/tag/v0.7.0">pre-compiled binary of LoAT (Linux, 64 bit)</a>.
       Moreover, you can find the source code of LoAT at <a href="https://github.com/loat-developers/LoAT/tree/v0.7.0">GitHub</a>.
     </p>
-    <!--p>We refer to the <a href="https://loat-developers.github.io/LoAT/">general LoAT website</a> for further information.</p-->
+    <p>We refer to the <a href="https://loat-developers.github.io/LoAT/">general LoAT website</a> for further information.</p>
 
     <h1>Evaluation</h1>
 
