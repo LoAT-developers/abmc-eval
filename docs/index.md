@@ -54,7 +54,7 @@
           <li><tt>loat-static --mode reachability --format horn --engine adcl $INPUT</tt></li>
         </ul>
       </ul>
-      <li><a href="https://github.com/Z3Prover/z3">Z3</a> 4.12.2</li>
+      <li><a href="https://github.com/Z3Prover/z3">Z3</a> 4.13.0</li>
       <ul>
         <li>the Spacer algorithm (Spacer)</li>
         <ul>
@@ -65,7 +65,7 @@
           <li><tt>z3 fp.engine=bmc $INPUT</tt></li>
         </ul>
       </ul>
-      <li><a href="https://github.com/usi-verification-and-security/golem">Golem</a> 0.4.3</li>
+      <li><a href="https://github.com/usi-verification-and-security/golem">Golem</a> 0.5.0</li>
       <ul>
         <li>Transition Power Abstraction (Golem TPA)</li>
         <ul>
@@ -76,10 +76,17 @@
           <li><tt>golem -l QF_LIA -e bmc $INPUT</tt></li>
         </ul>
       </ul>
-      <li><a href="https://github.com/uuverifiers/eldarica">Eldarica</a> 2.0.9 in its default configuration</li>
+      <li><a href="https://github.com/uuverifiers/eldarica">Eldarica</a> 2.1.0</li>
       <ul>
-          <li><tt>eld $INPUT</tt></li>
+        <li>CEGAR with acceleration as preprocessing</li>
+        <ul>
+          <li><tt>eld -splitClauses:1 -abstract:off -stac $INPUT</tt></li>
         </ul>
+        <li>Symbolic Execution</li>
+        <ul>
+          <li><tt>eld -splitClauses:1 -sym $INPUT</tt></li>
+        </ul>
+      </ul>
     </ul>
 
     <h2>Results</h2>
