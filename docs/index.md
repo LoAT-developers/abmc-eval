@@ -27,7 +27,7 @@
     <h2>Examples</h2>
 
     <p>
-      We used the examples from the category LIA-Lin (linear CHCs with linear integer arithmetic) from the <a href="https://chc-comp.github.io/">CHC competitions</a> 2023.
+      We used the examples from the category LIA-Lin (linear CHCs with linear integer arithmetic) from the <a href="https://chc-comp.github.io/2023/">CHC competition</a> 2023.
       They can be found <a href="https://github.com/chc-comp/chc-comp23-benchmarks/tree/main/LIA-lin">here</a>.
     </p>
 
@@ -37,7 +37,7 @@
     <ul>
       <li>LoAT 0.7.0</li>
       <ul>
-        <li>Accelerated Bounded Model Checking with blocking clauses (LoAT ABMC_block)</li>
+        <li>Accelerated Bounded Model Checking with blocking clauses (LoAT ABMC_b)</li>
         <ul>
           <li><tt>loat-static --mode reachability --format horn --engine abmc $INPUT</tt></li>
         </ul>
