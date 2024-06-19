@@ -18,7 +18,9 @@
 
     <p>
       We provide a <a href="https://github.com/LoAT-developers/LoAT/releases/tag/v0.7.0">pre-compiled binary of LoAT (Linux, 64 bit)</a>.
-      Moreover, you can find the source code of LoAT at <a href="https://github.com/loat-developers/LoAT/tree/v0.7.0">GitHub</a>.
+      Moreover, you can find the source code of LoAT
+      at <a href="https://github.com/loat-developers/LoAT/tree/v0.7.0">GitHub</a>.  An artifact containing LoAT which allows to replicate our experiments is
+available at <a href="https://zenodo.org/doi/10.5281/zenodo.11954015">Zenodo</a>.
     </p>
     <p>We refer to the <a href="https://loat-developers.github.io/LoAT/">general LoAT website</a> for further information.</p>
 
